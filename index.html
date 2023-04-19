@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Good Food</title>
+</head>
+
+<body>
+	<header>
+		<a href="#main" class="skip" tabindex ="0">Skip to main content</a>		
+		<nav>
+			<h1>Food in my daily rotation</h1>
+			<ul>
+				<li id = "home"><a href = "index.html" >Home</a></li>
+				<li><a href = "leftovers.html">Big recipes</a></li>
+				<li><a href = "oneMeal.html">One Meal Wonders</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main id="main">
+		<div class = "slideshow">
+			<button class="left" onclick="changeImage(-3, 'one')">&#10094;</button>
+			<img src = "images/budaejeegs.jpg" class ="one" alt = "budae jjigae">
+			<div class="one">
+				Budae Jjigae
+			</div>
+			<img src = "images/carbonara.jpg"  class ="one" alt = "carbonara">
+			<div class="one">
+				Carbonara
+			</div>
+			<img src = "images/egg sandwich.jpg" class ="one"  alt = "egg sandwich">
+			<div class="one">
+				Egg Sandwich
+			</div>
+			<img src = "images/hamburger.jpg" class ="one" alt = "hamburger">
+			<div class="one">
+				Hamburger
+			</div>
+			<img src = "images/okonomiyaki.jpg" class ="one"alt = "okonomiyaki">
+			<div class="one">
+				Okonomiyaki
+			</div>
+			<img src = "images/oyakodon.jpg" class ="one"alt = "oyakodon">
+			<div class="one">
+				Oyakodon
+			</div>
+			<button class="right" onclick="changeImage(+1, 'one')">&#10095;</button>
+		</div>
+		<div class = "slideshow">
+			<button class="left" onclick="changeImage(-3, 'leftover')">&#10094;</button>
+			<img src = "images/chili.jpg"  class = "leftover" alt = "chili">
+			<div class="leftover">
+				Chili
+			</div>
+			<img src = "images/fried rice.jpg"  class = "leftover" alt = "fried rice">
+			<div class="leftover">
+				Fried Rice
+			</div>
+			<img src = "images/soup.jpg" class = "leftover" alt = "broccoli cheddar soup">
+			<div class="leftover">
+				Broccoli Cheddar Soup
+			</div>
+			<button class="right" onclick="changeImage(+1, 'leftover')">&#10095;</button>
+		</div>
+
+
+	</main>
+
+	<script src="js/slideshow.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Big recipes</title>
+</head>
+<body>
+	<header>
+		<a href="#main" class="skip">Skip to main content</a>	
+		<h1>Leftovers</h1>		
+		<nav>
+			<ul>
+				<li><a href = "index.html">Home</a></li>
+				<li id = "home"><a href = "leftovers.html">Big recipes</a></li>
+				<li ><a href = "oneMeal.html">One Meal Wonders</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+    <div class="tab">
+		<button class="tablinks" onclick="openFood(event, 'chili')">Chili</button>
+		<button class="tablinks" onclick="openFood(event, 'broccoli cheddar soup')">Broccoli Cheddar Soup</button>
+		<button class="tablinks" onclick="openFood(event, 'fried rice')">Fried Rice</button>
+	</div>
+	  
+
+	<main id="main">
+		<div id="chili" class="tabcontent">
+			<div class="tab">
+				<button class="subtablinks" onclick="openSubTab(event, 'chili pictures')">Pictures</button>
+				<button class="subtablinks" onclick="openSubTab(event, 'chili recipe')">Recipe</button>
+				<button class="subtablinks" onclick="openSubTab(event, 'chili tips')">Tips</button>
+			</div>
+			<div class="imgGrid subtabcontent" id="chili pictures">
+				<img src = "images/beef.jpg" alt = "beef">
+				<img src = "images/onion.png"  alt = "onion">
+				<img src = "images/cookOnion.png"  alt = "cook Onion">
+				<img src = "images/beefOnion.png"  alt = "add beef to Onion">
+				<img src = "images/tomato.png"  alt = "add tomato">
+				<img src = "images/addSpice.png"  alt = "add spices">
+				<img src = "images/stock.png"  alt = "add stock">
+				<img src = "images/bean.png" alt = "add beans">
+				<img src = "images/doneAndDusted.png" alt = "done">
+			</div>		
+			<div class="subtabcontent" id="chili tips">
+				If your chili is too thin, just let it cook longer 
+				If your chili is bland, a pinch of worcestershire sauce or soy sauce helps contribute umami
+			</div>
+
+			<div class="subtabcontent" id="chili recipe">
+				Brown around two pounds of beef by putting your skillet on medium high with a teaspoon of oil which you may not need if you beef is more fatty. Break it up in the pan then let it sit until a crust starts to form, then flip and do the same thing again <br>
+				Dice a large onion and chop it up <br>
+				Do the same with three cloves of garlic<br>
+				Heat your chili pot on medium with some olive oil then sauté the onion until it starts to brown<br>
+				Throw the garlic in during the last couple of minutes<br>
+				Then add the beef with a teaspoon of salt and break it up more<br>
+				Add in 28oz/790g crushed tomatoes<br>
+				2 tablespoon chili powder<br>
+				1 tablespoon cumin <br>
+				1 to 1.5 cups beef broth…adjust as necessary <br>
+				½ tablespoon of brown sugar<br>
+				15.5oz/439g kidney beans<br>
+			</div>
+		</div>
+		  
+		  <div id="broccoli cheddar soup" class="tabcontent">
+			<div class="tab">
+				<button class="subtablinks" onclick="openSubTab(event, 'broccoli pictures')">Pictures</button>
+				<button class="subtablinks" onclick="openSubTab(event, 'broccoli recipe')">Recipe</button>
+				<button class="subtablinks" onclick="openSubTab(event, 'broccoli tips')">Tips</button>
+			</div>
+			<div class="imgGrid subtabcontent" id="broccoli pictures">
+				<img src = "images/soup.jpg" alt = "proof of concept">
+				<img src = "images/soup.jpg" alt = "proof of concept">
+				<img src = "images/soup.jpg" alt = "proof of concept">
+				<img src = "images/soup.jpg" alt = "proof of concept">
+				<img src = "images/soup.jpg" alt = "proof of concept">
+				<img src = "images/soup.jpg" alt = "proof of concept">
+				<img src = "images/soup.jpg" alt = "proof of concept">
+				<img src = "images/soup.jpg" alt = "proof of concept">
+				<img src = "images/soup.jpg" alt = "proof of concept">
+			</div>
+			<div class="subtabcontent" id="broccoli tips">
+				Broccoli concept Sorry this is just proof of concept but if I had more time I'd put more info
+
+			</div>
+
+			<div class="subtabcontent" id="broccoli recipe">
+				broccoli tips Sorry this is just proof of concept but if I had more time I'd put more info
+			</div>
+
+		  </div>
+		  
+		  <div id="fried rice" class="tabcontent">
+			<div class="tab">
+				<button class="subtablinks" onclick="openSubTab(event, 'fried rice pictures')">Pictures</button>
+				<button class="subtablinks" onclick="openSubTab(event, 'fried rice recipe')">Recipe</button>
+				<button class="subtablinks" onclick="openSubTab(event, 'fried rice tips')">Tips</button>
+			</div>
+			<div class="imgGrid subtabcontent" id="fried rice pictures">
+				<img src = "images/fried rice.jpg" alt = "proof of concept">
+				<img src = "images/fried rice.jpg" alt = "proof of concept">
+				<img src = "images/fried rice.jpg" alt = "proof of concept">
+				<img src = "images/fried rice.jpg" alt = "proof of concept">
+				<img src = "images/fried rice.jpg" alt = "proof of concept">
+				<img src = "images/fried rice.jpg" alt = "proof of concept">
+				<img src = "images/fried rice.jpg" alt = "proof of concept">
+				<img src = "images/fried rice.jpg" alt = "proof of concept">
+				<img src = "images/fried rice.jpg" alt = "proof of concept">
+			</div>
+			<div class="subtabcontent" id="fried rice tips">
+				Fried Rice. Sorry this is just proof of concept but if I had more time I'd put more info
+
+			</div>
+
+			<div class="subtabcontent" id="fried rice recipe">
+				Fried Rice. Sorry this is just proof of concept but if I had more time I'd put more info
+			</div>	
+		  </div>
+	</main>
+	<script src="js/tabs.js"></script>
+</body>
+</html>
